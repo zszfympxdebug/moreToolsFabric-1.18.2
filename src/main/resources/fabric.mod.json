@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "moreToolsFabric",
+  "version": "${version}",
+  "name": "MoreToolsFabric",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/moreToolsFabric/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.zszf.moretoolsfabric.moretoolsfabric.client.MoreToolsFabricClient"
+    ],
+    "main": [
+      "com.zszf.moretoolsfabric.moretoolsfabric.MoreToolsFabric"
+    ]
+  },
+  "mixins": [
+    "moreToolsFabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}
