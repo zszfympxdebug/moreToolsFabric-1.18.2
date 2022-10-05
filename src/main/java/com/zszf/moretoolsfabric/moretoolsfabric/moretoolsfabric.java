@@ -1,5 +1,6 @@
 package com.zszf.moretoolsfabric.moretoolsfabric;
 
+import com.zszf.moretoolsfabric.moretoolsfabric.Block.RegistryBlocks;
 import com.zszf.moretoolsfabric.moretoolsfabric.Item.RegistryItems;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
@@ -26,6 +27,7 @@ public class moretoolsfabric implements ModInitializer {
         logger.info("Enable MoreToolsFabric!");
         //注册物品
         RegistryItems.RegistryItem();
+        RegistryBlocks.Registry();
         logger.info("MoreToolsFabric 所有物品注册完成");
     }
 }
