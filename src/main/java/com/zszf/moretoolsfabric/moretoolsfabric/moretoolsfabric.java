@@ -17,6 +17,13 @@ public class moretoolsfabric implements ModInitializer {
             .icon(() -> new ItemStack(RegistryItems.OBSIDIAN_INGOT))
             .appendItems(stacks -> {
                 stacks.add(new ItemStack(RegistryItems.OBSIDIAN_INGOT));
+                stacks.add(new ItemStack(RegistryItems.OBSIDIAN_AXE));
+                stacks.add(new ItemStack(RegistryItems.OBSIDIAN_HOE));
+                stacks.add(new ItemStack(RegistryItems.OBSIDIAN_PICKAXE));
+                stacks.add(new ItemStack(RegistryItems.OBSIDIAN_SHOVEL));
+                stacks.add(new ItemStack(RegistryItems.OBSIDIAN_SWORD));
+                stacks.add(new ItemStack(RegistryItems.RAW_OBSIDIAN));
+                stacks.add(new ItemStack(RegistryBlocks.OBSIDIAN_ORE));
             })
             .build();
     // log4j
