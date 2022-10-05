@@ -13,7 +13,7 @@ import org.apache.logging.log4j.Logger;
 public class moretoolsfabric implements ModInitializer {
     // 添加物品组
     public static final ItemGroup MoreTools_Group = FabricItemGroupBuilder.create(
-                    new Identifier(Utils.MOD_ID, "MoreTools_Group"))
+                    new Identifier(Utils.MOD_ID, "moretools_group"))
             .icon(() -> new ItemStack(RegistryItems.OBSIDIAN_INGOT))
             .appendItems(stacks -> {
                 stacks.add(new ItemStack(RegistryItems.OBSIDIAN_INGOT));
